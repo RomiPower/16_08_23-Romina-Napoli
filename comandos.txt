@@ -1,0 +1,26 @@
+  165  cd 16_08_23-Romina-Napoli
+  166  echo "# 16_08_23-Romina-Napoli" >> README.md
+  167  git init
+  168  git add README.md
+  169  git commit -m "first commit"
+  170  git branch -M main
+  171  git remote add origin https://github.com/RomiPower/16_08_23-Romina-Napoli.git
+  172  git push -u origin main
+  173  to
+  174  touch main.js index.html
+  175  git add .
+  176  git status
+  177  git commit -m "commit 01 de Romina Napoli"
+  178  git push origin main
+  179  git branch feature
+  180  git checkout feature
+  181  mkdir Hardware Software SeguridadInformatica
+  182  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  183  git add .
+  184  git commit -m "commit 02 de Romina Napoli"
+  185  git push origin feature
+  186  git checkout main
+  187  mv main.js resumenHardware.txt
+  188  mv index.html resumenSoftware.txt
+  189  touch comandos.txt
+  190  history 50> comandos.txt
